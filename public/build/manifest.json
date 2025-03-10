@@ -1,0 +1,90 @@
+{
+  "_app-layout-CLB1zx-n.js": {
+    "file": "assets/app-layout-CLB1zx-n.js",
+    "name": "app-layout",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "_layout-DxppU3IL.js": {
+    "file": "assets/layout-DxppU3IL.js",
+    "name": "layout",
+    "imports": [
+      "resources/js/app.tsx",
+      "_app-layout-CLB1zx-n.js"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BctVKCgV.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.tsx": {
+    "file": "assets/app-FvlCIHnu.js",
+    "name": "app",
+    "src": "resources/js/app.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pages/dashboard.tsx",
+      "resources/js/pages/settings/appearance.tsx",
+      "resources/js/pages/settings/profile.tsx",
+      "resources/js/pages/welcome.tsx"
+    ],
+    "css": [
+      "assets/app-BctVKCgV.css"
+    ]
+  },
+  "resources/js/pages/dashboard.tsx": {
+    "file": "assets/dashboard-BNPRuCyj.js",
+    "name": "dashboard",
+    "src": "resources/js/pages/dashboard.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_app-layout-CLB1zx-n.js"
+    ],
+    "css": [
+      "assets/app-BctVKCgV.css"
+    ]
+  },
+  "resources/js/pages/settings/appearance.tsx": {
+    "file": "assets/appearance-uVawbYX7.js",
+    "name": "appearance",
+    "src": "resources/js/pages/settings/appearance.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_app-layout-CLB1zx-n.js",
+      "_layout-DxppU3IL.js"
+    ],
+    "css": [
+      "assets/app-BctVKCgV.css"
+    ]
+  },
+  "resources/js/pages/settings/profile.tsx": {
+    "file": "assets/profile-BoKP8ayJ.js",
+    "name": "profile",
+    "src": "resources/js/pages/settings/profile.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_app-layout-CLB1zx-n.js",
+      "_layout-DxppU3IL.js"
+    ],
+    "css": [
+      "assets/app-BctVKCgV.css"
+    ]
+  },
+  "resources/js/pages/welcome.tsx": {
+    "file": "assets/welcome-CAhL4fCb.js",
+    "name": "welcome",
+    "src": "resources/js/pages/welcome.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx"
+    ],
+    "css": [
+      "assets/app-BctVKCgV.css"
+    ]
+  }
+}
